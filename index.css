@@ -1,2 +1,8 @@
 h2{color:red}
 h3{color:violet}
+.p4 {
+    border: 2px solid green;
+}
+body {
+    text-align: center;
+}

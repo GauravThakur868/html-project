@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+}
+body {
+    background-image: url("https://www.bing.com/th?id=OIP.V6waM-05f7F22PqZA_EAhQHaHa&w=100&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+.div1 {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 50px;
+}
+.p1{
+    border: 4px dotted orange;
+    border-style: solid solid dotted dotted;
+    background-color: yellow;
+}
+.p2{
+    border-style: solid solid dotted solid;
+    background-color: blue;
+}
+.p3{
+    border-top: 4px soild green;
+    background-color: gold;
+    border: 3px solid sienna;
+    margin: 10px;
+}

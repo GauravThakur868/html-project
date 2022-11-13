@@ -1,0 +1,17 @@
+ul{
+    list-style-type:upper-alpha;
+}
+ol{
+    list-style-type:circle;
+}
+.span1{
+    color: green;
+}
+table,th,td{
+    border:2px solid blue;
+    border-collapse: collapse;
+}
+th,td{
+    background-color: chartreuse;
+    font-size: larger;
+}

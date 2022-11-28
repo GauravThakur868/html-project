@@ -1,3 +1,8 @@
-table{
+tr{
     border-spacing: 50px;
+    background-color: chartreuse;
+}
+th{
+    background-color: aqua;
+    margin: 40px;
 }

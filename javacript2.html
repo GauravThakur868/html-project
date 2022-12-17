@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="maindiv" class="maindivclass">
+
+        <ul>
+            <li>home</li>
+            <li>aboutme</li>
+            <li>next page</li>
+            <li>setting</li>
+        </ul>
+        <h1 id="heading">events and handlers</h1>
+        <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Nihil aperiam perferendis nulla officia nam minima ad odio,
+              rerum harum ducimus, vitae veniam sapiente eos voluptate, 
+              deleniti optio sequi. Asperiores, quisquam?Lorem ipsum dolor
+               sit amet consectetur adipisicing elit. Asperiores ratione 
+               libero officiis similique voluptate illo quo illum facilis 
+               porro, veritatis, doloremque repellendus, minima aut? Voluptatibus
+                praesentium et odio quibusdam expedita?</p>
+                <input id="btn" type="button" value="submit" onclick="hidepara()">
+    </div>
+    <script>
+        let main = document.getElementById("maindiv");
+        console.log(main);
+        let paragraph = document.getElementById("para");
+        let button = document.getElementById("btn");
+        function hidepara(){
+            if (paragraph.style.display != "none")
+            {
+                paragraph.style.display ="none";
+            }
+            else{
+                paragraph.style.display = "block";
+            }
+        }
+        //button.onclick = function number(){
+        //    for (let i = 1; i <= 10; i++){
+        //        console.log(i);
+        //    }
+        //}
+        paragraph.addEventListener('mouseover',function check(){
+            console.log("over paragraph");
+        })
+        paragraph.addEventListener('mouseout',function check(){
+            console.log("out paragraph");
+        })
+    </script>
+</body>
+</html>
